@@ -1,0 +1,158 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.sec1 {
+  height: 87vh;
+  width: 98.8vw;
+  background-image: url(chicago.jpg);
+  justify-content: center;
+  align-items: end;
+  display: flex;
+  background-clip: border-box;
+  position: relative;
+}
+.img1 {
+  position: absolute;
+  display: block;
+}
+.msgonimg1 {
+  position: absolute;
+  bottom: 25px;
+  background-clip: border-box;
+  color: white;
+}
+.msgonimg2 {
+  position: absolute;
+  background-clip: border-box;
+  color: white;
+}
+.nav ul {
+  height: 30px;
+  background-color: black;
+  flex-direction: row;
+  display: flex;
+  list-style-type: none;
+}
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+.nav ul li {
+  padding-bottom: 8px;
+  align-content: center;
+  align-items: center;
+  padding: 8px;
+}
+.navlinks:hover {
+  background-color: gray;
+  color: black;
+}
+.nav select {
+  color: white;
+  height: 30px;
+  background-color: black;
+  flex-direction: row;
+  display: flex;
+  list-style-type: none;
+}
+.all {
+  text-align: justify;
+  margin: 100px;
+}
+.sec3 {
+  margin-top: 75px;
+  display: flex;
+}
+.img1sec3 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.img2sec3 {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.img3sec3 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.msg1sec3 p {
+  margin-left: 120px;
+  margin-bottom: 16px;
+}
+.tour {
+  background-color: black;
+  margin-top: 200px;
+}
+.tour p {
+  color: white;
+}
+.card1 p{
+    color: black;
+}
+.allcard{
+    margin-bottom: 16px;
+    padding-bottom: 64px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+}
+.card2 p{
+    color: black;
+}
+.card3 p{
+    color: black;
+}
+.card1{
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.card2{
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.card3{
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.imgsoncard:hover{
+    filter: grayscale(64%);
+}
+.buttoncard{
+    height: 16px;
+    margin-top: 8px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.buttoncard:hover{
+    background-color: gainsboro;
+    color: black;
+}
+.msginsec9{
+  float: left;
+  margin-right: 190px ;
+}
+.forminsec9{
+  margin-top: 50PX;
+}
+.input::placeholder{
+font-weight: 900;
+}
+.button{
+  border: none;
+  background-color: black;
+  color: white;
+  height: 25px;
+  width: 50px;
+}
+.logo{ 
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+}
+.fa-brands:hover{
+  opacity: 0.5;
+}
